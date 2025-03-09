@@ -56,7 +56,7 @@ const services = [
   },
   {
     icon: <Gem className="h-8 w-8 text-pink-500" />,
-    title: "Jewelry for Mehndi",
+    title: "Jewellery for Mehndi",
     description: "Exquisite floral jewelry for mehndi ceremonies.",
   },
   {
