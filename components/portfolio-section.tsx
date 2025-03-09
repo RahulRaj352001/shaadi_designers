@@ -7,52 +7,74 @@ import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 
 // Portfolio categories
-const categories = ["All", "Weddings", "Decor", "Mehndi", "Sangeet"]
+const categories = ["All", "Weddings", "Decor", "Mehndi & Haldi", "Entertainment" ,]
 
 // Sample portfolio items (in a real site, this would come from a CMS or API)
 const portfolioItems = [
   {
     id: 1,
-    title: "Royal Wedding in Jaipur",
-    category: "Weddings",
-    image: "/placeholder.svg?height=600&width=800",
-    description: "A luxurious destination wedding with royal Rajasthani themes.",
-  },
+    title: "Contemporary Decor Theme",
+    category: "Mehndi & Haldi",
+    image: "/images/haldi decor 890.jpg?height=600&width=800",
+    description: "Modern minimalist decor with elegant lighting.",},
   {
     id: 2,
     title: "Floral Mandap Design",
     category: "Decor",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/images/wedding decor34.jpg?height=600&width=800",
     description: "Elegant floral mandap with traditional and modern elements.",
   },
-  {
+  {         
     id: 3,
     title: "Traditional Mehndi Ceremony",
-    category: "Mehndi",
-    image: "/placeholder.svg?height=600&width=800",
+    category: "Mehndi & Haldi",
+    image: "/images/mehdi56.jpg?height=600&width=800",
     description: "Vibrant mehndi setup with traditional Rajasthani elements.",
   },
   {
     id: 4,
     title: "Sangeet Night Performance",
-    category: "Sangeet",
-    image: "/placeholder.svg?height=600&width=800",
+    category: "Decor",
+    image: "/images/decor 00.jpg?height=600&width=800",
     description: "Energetic sangeet night with professional choreography.",
   },
   {
     id: 5,
     title: "Beachside Wedding in Goa",
     category: "Weddings",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/images/wedding decor 09.jpg?height=600&width=800",
     description: "Romantic beachside wedding with sunset views.",
   },
   {
     id: 6,
     title: "Contemporary Decor Theme",
-    category: "Decor",
-    image: "/placeholder.svg?height=600&width=800",
+    category: "Weddings",
+    image: "/images/haldi2.jpg?height=600&width=800",
     description: "Modern minimalist decor with elegant lighting.",
   },
+  {
+    id: 7,
+    title: "Contemporary Decor Theme",
+    category: "Weddings",
+    image: "/images/decor000.jpg?height=600&width=800",
+    description: "Modern minimalist decor with elegant lighting.",
+  },
+  {
+    id: 8,
+    title: "Contemporary Decor Theme",
+    category: "Mehndi & Haldi",
+    image: "/images/haldi decor 67.jpg?height=600&width=800",
+    description: "Modern minimalist decor with elegant lighting.",
+  },
+  {
+    id: 9,
+
+    title: "Royal Wedding in Jaipur",
+    category: "Entertainment",
+    image: "/images/entertainment.jpg?height=600&width=800",
+    description: "A luxurious destination wedding with royal Rajasthani themes.",
+  },
+
 ]
 
 export default function PortfolioSection() {

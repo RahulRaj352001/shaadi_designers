@@ -41,15 +41,14 @@ export default function Footer() {
               since 2019.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 hover:bg-pink-500 p-2 rounded-full transition-colors duration-300">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-gray-800 hover:bg-pink-500 p-2 rounded-full transition-colors duration-300">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-gray-800 hover:bg-pink-500 p-2 rounded-full transition-colors duration-300">
-                <Linkedin className="h-5 w-5" />
-              </a>
+            <a href="https://www.instagram.com/shaadiidesigners/profilecard/?igsh=MTN5d212bHYzbHlnNg==" target="__blank" className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors duration-300">
+                    <Instagram className="h-5 w-5" />
+                  </a>
+                  <a href="https://www.facebook.com/share/1UDP8wTqQf/"  target="__blank" className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors duration-300">
+                    <Facebook className="h-5 w-5" />
+                  </a>
+            
+            
             </div>
           </div>
 
@@ -80,16 +79,16 @@ export default function Footer() {
                 <span className="block">Jaipur</span>
               </li>
               <li className="text-gray-400">
-                <a href="tel:+919XXXXXXXXX" className="hover:text-pink-400 transition-colors duration-300">
-                  +91 9XXXXXXXXX
+                <a href="tel:+918222892048" className="hover:text-pink-400 transition-colors duration-300">
+                  +91 8222 892048
                 </a>
               </li>
               <li className="text-gray-400">
                 <a
-                  href="mailto:hello@shaadidesigners.com"
+                  href="mailto:hello@shaadidesigners.in"
                   className="hover:text-pink-400 transition-colors duration-300"
                 >
-                  hello@shaadidesigners.com
+                  hello@shaadidesigners.in
                 </a>
               </li>
             </ul>
@@ -97,7 +96,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 pt-8 mt-8 text-center text-gray-500 text-sm">
-          <p className="mb-2">© {new Date().getFullYear()} Shaadi Designers Pvt Ltd. All rights reserved.</p>
+          <p className="mb-2">© {new Date().getFullYear()} Arora Shaadi Designers Pvt Ltd. All rights reserved.</p>
           <p className="flex items-center justify-center">
             Made with <Heart className="h-4 w-4 text-pink-500 mx-1" /> in India
           </p>

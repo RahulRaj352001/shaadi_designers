@@ -38,7 +38,7 @@ export default function ContactSection() {
                   <div>
                     <p className="font-medium">Phone</p>
                     <a href="tel:+919XXXXXXXXX" className="hover:underline">
-                      +91 9XXXXXXXXX
+                         +91 8222 892048
                     </a>
                   </div>
                 </div>
@@ -47,8 +47,8 @@ export default function ContactSection() {
                   <Mail className="h-5 w-5 mr-4" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <a href="mailto:hello@shaadidesigners.com" className="hover:underline">
-                      hello@shaadidesigners.com
+                    <a href="mailto:hello@shaadidesigners.in" className="hover:underline">
+                    hello@shaadidesigners.in
                     </a>
                   </div>
                 </div>
@@ -67,15 +67,13 @@ export default function ContactSection() {
               <div className="mt-12">
                 <p className="font-medium mb-4">Follow Us</p>
                 <div className="flex space-x-4">
-                  <a href="#" className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors duration-300">
+                  <a href="https://www.instagram.com/shaadiidesigners/profilecard/?igsh=MTN5d212bHYzbHlnNg==" target="__blank" className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors duration-300">
                     <Instagram className="h-5 w-5" />
                   </a>
-                  <a href="#" className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors duration-300">
+                  <a href="https://www.facebook.com/share/1UDP8wTqQf/"  target="__blank" className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors duration-300">
                     <Facebook className="h-5 w-5" />
                   </a>
-                  <a href="#" className="bg-white/20 hover:bg-white/30 p-2 rounded-full transition-colors duration-300">
-                    <Linkedin className="h-5 w-5" />
-                  </a>
+            
                 </div>
               </div>
             </div>
@@ -91,7 +89,7 @@ export default function ContactSection() {
               <div className="flex flex-col items-center mb-8">
                 <div className="relative h-48 w-48 mb-4">
                   <NextImage
-                    src="/placeholder.svg?height=200&width=200"
+                    src="images/WhatsApp Image 2025-03-09 at 8.59.06 PM.jpeg?height=200&width=200"
                     alt="WhatsApp QR Code"
                     fill
                     className="object-contain"

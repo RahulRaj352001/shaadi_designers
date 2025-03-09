@@ -8,9 +8,9 @@ import { Instagram, Linkedin, Twitter } from "lucide-react"
 const teamMembers = [
   {
     id: 1,
-    name: "Ananya Sharma",
+    name: "Chirag Arora",
     role: "Founder & Creative Director",
-    image: "/placeholder.svg?height=400&width=400",
+    image: "https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/473408250_935820271592103_8520747330191159597_n.jpg?ccb=11-4&oh=01_Q5AaIJLCQ3i8ZKCjDI8Oq1LV_NXaxxaUkspdU18WnmAZH5h2&oe=67DAC84F&_nc_sid=5e03e0&_nc_cat=104?height=400&width=400",
     bio: "With over 10 years of experience in event planning, Ananya brings creativity and vision to every wedding.",
     social: {
       instagram: "#",
@@ -20,10 +20,10 @@ const teamMembers = [
   },
   {
     id: 2,
-    name: "Vikram Singh",
-    role: "Operations Manager",
-    image: "/placeholder.svg?height=400&width=400",
-    bio: "Vikram ensures flawless execution of every event with his meticulous planning and coordination skills.",
+    name: "Rahul Rajput",
+    role: "CTO & Operations Manager",
+    image: "https://www.propertyjinni.co.uk/images/rahul.png?height=400&width=400",
+    bio: "Rahul ensures flawless execution of every event with his meticulous planning and coordination skills.",
     social: {
       instagram: "#",
       linkedin: "#",
@@ -32,10 +32,10 @@ const teamMembers = [
   },
   {
     id: 3,
-    name: "Priya Patel",
-    role: "Decor Specialist",
-    image: "/placeholder.svg?height=400&width=400",
-    bio: "Priya transforms venues with her artistic touch and eye for detail, creating magical settings for celebrations.",
+    name: "Harry Chibbar",
+    role: "Design & Decor Specialist",
+    image: "https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/455208478_954448093246804_3466000885314347854_n.jpg?ccb=11-4&oh=01_Q5AaIH8ewprJHdW1WHEnaLxMRkDgSV96dNviAoqxKkjAUtVY&oe=67DABECE&_nc_sid=5e03e0&_nc_cat=103?height=400&width=400",
+    bio: "Harry transforms venues with her artistic touch and eye for detail, creating magical settings for celebrations.",
     social: {
       instagram: "#",
       linkedin: "#",
@@ -44,10 +44,10 @@ const teamMembers = [
   },
   {
     id: 4,
-    name: "Arjun Kapoor",
+    name: "Aman",
     role: "Client Relations Manager",
-    image: "/placeholder.svg?height=400&width=400",
-    bio: "Arjun is dedicated to understanding clients' visions and ensuring their expectations are exceeded.",
+    image: "/images/WhatsApp Image 2025-03-09 at 8.59.28 PM.jpeg/?height=400&width=400",
+    bio: "Aman is dedicated to understanding clients' visions and ensuring their expectations are exceeded.",
     social: {
       instagram: "#",
       linkedin: "#",

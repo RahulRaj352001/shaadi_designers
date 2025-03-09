@@ -12,7 +12,7 @@ const testimonials = [
     id: 1,
     name: "Priya & Rahul",
     location: "Delhi",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK7smR04KrwLl3iGvbRWmSm2U9VU17zwJ0sg&s&fm=jpg?height=200&width=200",
     quote:
       "Shaadi Designers transformed our wedding into a magical experience. Their attention to detail and creativity exceeded our expectations. Every element was perfectly executed, from the decor to the coordination.",
     event: "Destination Wedding in Udaipur",
@@ -21,7 +21,7 @@ const testimonials = [
     id: 2,
     name: "Ananya & Vikram",
     location: "Jaipur",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://www.shutterstock.com/shutterstock/photos/2087404156/display_1500/stock-photo-portrait-of-a-happy-indian-wedding-couple-sitting-together-on-mandap-2087404156.jpg?height=200&width=200",
     quote:
       "We couldn't have asked for a better team to plan our wedding. Shaadi Designers understood our vision perfectly and brought it to life in the most beautiful way. Our guests are still talking about how amazing everything was!",
     event: "Traditional Wedding in Jaipur",
@@ -30,7 +30,7 @@ const testimonials = [
     id: 3,
     name: "Meera & Arjun",
     location: "Mumbai",
-    image: "/placeholder.svg?height=200&width=200",
+    image: "https://t3.ftcdn.net/jpg/01/03/32/70/360_F_103327027_Q1xyMUkuBa70u40rViraUHTkDLQS2irJ.jpg?height=200&width=200",
     quote:
       "The team at Shaadi Designers is incredibly professional and creative. They managed everything flawlessly, allowing us to enjoy our special day without any stress. We highly recommend their services!",
     event: "Beach Wedding in Goa",

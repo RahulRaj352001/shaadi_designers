@@ -41,7 +41,7 @@ export default function HeroSection() {
         >
           <div className="relative w-full h-[400px] md:h-[500px]">
             <NextImage
-              src="/placeholder.svg?height=600&width=600"
+              src="/freepik__background__52336.png?height=600&width=600"
               alt="Indian Wedding Illustration"
               fill
               className="object-contain"
