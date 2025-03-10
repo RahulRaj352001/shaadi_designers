@@ -11,7 +11,7 @@ const teamMembers = [
     name: "Chirag Arora",
     role: "Founder & Creative Director",
     image: "https://media-del1-2.cdn.whatsapp.net/v/t61.24694-24/473408250_935820271592103_8520747330191159597_n.jpg?ccb=11-4&oh=01_Q5AaIJLCQ3i8ZKCjDI8Oq1LV_NXaxxaUkspdU18WnmAZH5h2&oe=67DAC84F&_nc_sid=5e03e0&_nc_cat=104?height=400&width=400",
-    bio: "With over 10 years of experience in event planning, Ananya brings creativity and vision to every wedding.",
+    bio: "With over 10 years of experience in event planning, Chirag brings creativity and vision to every wedding.",
     social: {
       instagram: "#",
       linkedin: "#",
