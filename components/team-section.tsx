@@ -47,7 +47,7 @@ const teamMembers = [
 export default function TeamSection() {
   return (
     <section id="team" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-12">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-6">Meet Our Team</h2>
           <div className="h-0.5 w-20 bg-pink-300 mx-auto mb-8"></div>
@@ -56,22 +56,22 @@ export default function TeamSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mx-10">
           {teamMembers.map((member, index) => (
             <motion.div
               key={member.id}
               className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 25 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <div className="relative h-80 w-full overflow-hidden group">
+              <div className="relative h-96 w-full overflow-hidden group">
                 <NextImage
                   src={member.image}
                   alt={member.name}
                   fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="object-cover transition-transform duration-500 group-hover:scale-100"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-pink-500/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-6">
                   <div className="flex space-x-4">
