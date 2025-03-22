@@ -9,7 +9,7 @@ const teamMembers = [
   {
     id: 1,
     name: "Chirag Arora",
-    role: "Founder & Creative Director",
+    role: "Founder, CEO & Client Relations Manager",
     image: "/images/Chirag.jpeg/?height=400&width=400",
     bio: "With over 10 years of experience in event planning, Chirag brings creativity and vision to every wedding.",
     social: {
@@ -36,18 +36,6 @@ const teamMembers = [
     role: "Design & Decor Specialist",
     image: "/images/FullSizeRender.jpeg/?height=400&width=400",
     bio: "Harry transforms venues with her artistic touch and eye for detail, creating magical settings for celebrations.",
-    social: {
-      instagram: "#",
-      linkedin: "#",
-      twitter: "#",
-    },
-  },
-  {
-    id: 4,
-    name: "Aman",
-    role: "Client Relations Manager",
-    image: "/images/WhatsApp Image 2025-03-09 at 8.59.28 PM.jpeg/?height=400&width=400",
-    bio: "Aman is dedicated to understanding clients' visions and ensuring their expectations are exceeded.",
     social: {
       instagram: "#",
       linkedin: "#",
