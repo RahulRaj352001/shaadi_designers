@@ -45,60 +45,67 @@ const portfolioItems = [
     description: "Energetic sangeet night with professional choreography.",
   },
   {
-    id: 6,
-    title: "Decor 1",
-    category: "Decor",
-    image: "/image/Decor 1.jpeg",
-    description: "Beautiful decor setup with intricate details.",
-  },
-  {
-    id: 7,
-    title: "Decor 3",
-    category: "Decor",
-    image: "/image/Decor 3.jpeg",
-    description: "Elegant decor with a modern touch.",
-  },
-  {
-    id: 8,
-    title: "Decor 5",
-    category: "Decor",
-    image: "/image/decor 5.jpeg",
-    description: "A stunning decor arrangement for special events.",
-  },
-  {
-    id: 9,
-    title: "Haldi 1",
-    category: "Mehndi & Haldi",
-    image: "/image/haldi 1.jpeg",
-    description: "Traditional Haldi ceremony setup with vibrant colors.",
-  },
-  {
-    id: 10,
-    title: "Haldi 2",
-    category: "Mehndi & Haldi",
-    image: "/image/haldi 2.jpeg",
-    description: "A colorful Haldi ceremony with floral arrangements.",
-  },
-  {
-    id: 11,
-    title: "Haldi 3",
-    category: "Mehndi & Haldi",
-    image: "/image/haldi 3.jpeg",
-    description: "A beautiful Haldi setup with traditional elements.",
-  },
-  {
-    id: 12,
-    title: "Haldi Video",
-    category: "Mehndi & Haldi",
-    video: "/image/haldi.mp4",
-    description: "A vibrant Haldi ceremony captured in motion.",
-  },
-  {
     id: 5,
     title: "Beachside Wedding in Goa",
     category: "Weddings",
     image: "/images/wedding decor 09.jpg?height=600&width=800",
     description: "Romantic beachside wedding with sunset views.",
+  },
+  {
+    id: 6,
+    title: "Elegant Light Decor",
+    category: "Decor",
+    image: "/image/Decor 1.jpeg",
+    description: "A beautiful floral decor setup with intricate details.",
+  },
+  {
+    id: 7,
+    title: "Modern Luxe Decor",
+    category: "Decor",
+    image: "/image/Decor 3.jpeg",
+    description: "A luxurious decor arrangement with a modern touch.",
+  },
+  {
+    id: 8,
+    title: "Grand Event Decor",
+    category: "Decor",
+    image: "/image/decor 5.jpeg",
+    description: "A stunning decor arrangement for grand celebrations.",
+  },
+  {
+    id: 9,
+    title: "Vibrant Return Gifts",
+    category: "Mehndi & Haldi",
+    image: "/image/haldi 1.jpeg",
+    description: "A vibrant Haldi ceremony setup with colorful elements.",
+  },
+  {
+    id: 10,
+    title: "Floral Haldi Gifts",
+    category: "Mehndi & Haldi",
+    image: "/image/haldi 2.jpeg",
+    description: "A Haldi ceremony with elegant floral arrangements.",
+  },
+  {
+    id: 11,
+    title: "Traditional Haldi Vibes",
+    category: "Mehndi & Haldi",
+    image: "/image/haldi 3.jpeg",
+    description: "A traditional Haldi setup with cultural elements.",
+  },
+  {
+    id: 12,
+    title: "Haldi Celebration",
+    category: "Mehndi & Haldi",
+    video: "/image/haldi.mp4",
+    description: "A vibrant Haldi ceremony captured in motion.",
+  },
+  {
+    id: 13,
+    title: "Royal Haldi Return Gift",
+    category: "Mehndi & Haldi",
+    image: "/image/haldi 4.jpeg",
+    description: "A royal Haldi ceremony with luxurious decor.",
   },
   {
     id: 14,
@@ -202,38 +209,40 @@ export default function PortfolioSection() {
       </div>
 
       {/* Lightbox dialog */}
-     <Dialog open={!!selectedItem} onOpenChange={() => setSelectedItem(null)}>
-  <DialogContent className="max-w-4xl w-full max-h-[90vh] p-0 overflow-hidden bg-white rounded-lg">
-    {selectedItem && (
-      <div className="flex flex-col md:flex-row h-full">
-        <div style={{height:"700px"}} className="relative w-full md:w-2/3 max-h-[90vh] h-100 flex items-center justify-center bg-black">
-          {selectedItem.video ? (
-            <video
-              src={selectedItem.video}
-              className="w-full max-h-[90vh] object-contain"
-              controls
-            />
-          ) : (
-             <NextImage
-              src={selectedItem.image || "/placeholder.svg"}
-              alt={selectedItem.title}
-              fill
-              className="object-contain "
-            />
+      <Dialog open={!!selectedItem} onOpenChange={() => setSelectedItem(null)}>
+        <DialogContent className="max-w-4xl w-full max-h-[90vh] p-0 overflow-hidden bg-white rounded-lg">
+          {selectedItem && (
+            <div className="flex flex-col md:flex-row h-full">
+              <div
+                style={{ height: "700px" }}
+                className="relative w-full md:w-2/3 max-h-[90vh] h-100 flex items-center justify-center bg-black"
+              >
+                {selectedItem.video ? (
+                  <video
+                    src={selectedItem.video}
+                    className="w-full max-h-[90vh] object-contain"
+                    controls
+                  />
+                ) : (
+                  <NextImage
+                    src={selectedItem.image || "/placeholder.svg"}
+                    alt={selectedItem.title}
+                    fill
+                    className="object-contain "
+                  />
+                )}
+              </div>
+              <div className="p-6 md:w-1/3 overflow-y-auto">
+                <h3 className="text-2xl font-semibold text-gray-900 mb-2">
+                  {selectedItem.title}
+                </h3>
+                <p className="text-pink-500 mb-4">{selectedItem.category}</p>
+                <p className="text-gray-700">{selectedItem.description}</p>
+              </div>
+            </div>
           )}
-        </div>
-        <div className="p-6 md:w-1/3 overflow-y-auto">
-          <h3 className="text-2xl font-semibold text-gray-900 mb-2">
-            {selectedItem.title}
-          </h3>
-          <p className="text-pink-500 mb-4">{selectedItem.category}</p>
-          <p className="text-gray-700">{selectedItem.description}</p>
-        </div>
-      </div>
-    )}
-  </DialogContent>
-</Dialog>
-
+        </DialogContent>
+      </Dialog>
     </section>
   );
 }
